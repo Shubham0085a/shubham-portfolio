@@ -1,6 +1,6 @@
 "use client";
 import { FC, MouseEvent, useEffect, useRef } from "react";
-import heroImage from "@/assets/images/hero-image.jpg";
+import heroImage from "@/assets/images/hero-image.png";
 import Image from "next/image";
 import Button from "@/components/Button";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -104,21 +104,72 @@ const Hero: FC = () => {
                 </Link>
               </motion.div>
             </div>
+            <div className="flex flex-col md:flex-row md:items-center mt-5 items-start gap-6">
+              <motion.div
+                initial={{ opacity: 0, y: "100%" }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 1.75 }}
+              >
+                <Link href="/Shubham_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="secondary"
+                    iconAfter={
+                      <div className="size-8 overflow-hidden">
+                        <div className="transform h-10 flex flex-col justify-center items-center gap-2 transition-transform -translate-y-4 duration-500 group-hover/button:translate-y-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="1.5"
+                            stroke="currentColor"
+                            className="size-5"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="1.5"
+                            stroke="currentColor"
+                            className="size-5"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    }
+                  >
+                    <span>Download Resume</span>
+                  </Button>
+                </Link>
+              </motion.div>
+            </div>
           </div>
         </div>
         <div className="md:col-span-5 relative">
-          <motion.div
+            <motion.div
             className="mt-20 md:mt-0 md:size-full md:absolute md:right-0 max-md:!w-full"
             style={{
               width: portraitWidth,
             }}
-          >
+            >
+            <div className="absolute mt-20 inset-0 bg-gradient-to-tr from-black to-transparent bg-opacity-50"></div>
             <Image
               src={heroImage}
               alt="My Portrait"
               className="size-full object-cover"
+              loading="lazy"
             />
-          </motion.div>
+            </motion.div>
         </div>
       </div>
       <div className="md:h-[200vh]" ref={scrollingDiv}></div>

@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Weather App",
+      "image": "/weather_app.png",
+      "technologies": ["Tailwind", "React", "JSX", "TypeScript", "Weather APIs"],
+      "github_link": "https://github.com/Shubham0085a/weather-app",
+      "points": [
+        "Developed a responsive weather application that provides real-time weather updates using location-based services and API integration.",
+        "Built with HTML, CSS, JavaScript and integrated third-party weather APIs.",
+        "Displays temperature, humidity, and precipitation with real-time updates.",
+        "Implements geolocation for automatic weather detection.",
+        "Ensured responsive design for seamless experience across devices.",
+        "Optimized API fetching and data parsing for performance efficiency."
+      ]
+    },
+    {
+      "name": "Zentry.com Clone",
+      "image": "/zentry_clone.png",
+      "technologies": ["Tailwind", "React", "Vite", "JSX", "Weather APIs"],
+      "github_link": "https://github.com/Shubham0085a/game-ui",
+      "points": [
+        "Built a high-performance React, Vite, and Tailwind CSS clone, ensuring a responsive UI and seamless user experience.",
+        "Developed key features like gamified portals (NEXUS), cross-platform rewards (RADIANT), and digital collectibles (ZIGMA)."
+      ]
+    },
+    {
+      "name": "Restaurant Application",
+      "image": "/restaurant_app.jpg",
+      "technologies": ["HTML", "CSS", "React", "JSX", "JavaScript"],
+      "github_link": "https://github.com/Shubham0085a",
+      "points": [
+        "Developed a restaurant website using CSS for a visually appealing design, while React and JSX provide interactivity.",
+        "Offers an engaging user experience with features like meals of the day, typically categorized as breakfast, lunch, and dinner menus."
+      ]
+    },
+    {
+      "name": "Blogging Website",
+      "image": "/blogging_website.png",
+      "technologies": ["Next.js", "MongoDB", "JSX", "JavaScript", "Tailwind CSS", "Node.js", "Express"],
+      "github_link": "https://github.com/Shubham0085a/blogger-app",
+      "points": [
+        "Developed a full-stack blog application with admin panel functionality, allowing users to create, manage, and display blog posts.",
+        "Built the front-end of the application using Next.js and Tailwind CSS, ensuring a responsive and user-friendly interface.",
+        "Integrated MongoDB to store blog posts, user data, and other essential information, ensuring the database was well-structured for fast retrieval and scalability."
+      ]
+    },
+    {
+      "name": "Finance Tracker Website",
+      "image": "/finance_tracker.png",
+      "technologies": ["Next.js", "Tailwind CSS", "JSX", "JavaScript", "TypeScript", "MongoDB", "Express"],
+      "github_link": "https://github.com/Shubham0085a/financial-tracker",
+      "points": [
+        "Designed and built both the client-side and server-side of the application using Next.js for server-side rendering and routing.",
+        "Integrated MongoDB as the database to store and manage user data such as transactions, budgets, and financial goals.",
+        "Created a responsive, user-friendly interface with Tailwind CSS, ensuring the application is visually appealing and functional across all devices.",
+        "Implemented data validation and transaction management features to track expenses and income and generate financial reports.",
+        "Managed the database properly by organizing collections, setting up indexes, and ensuring efficient data queries.",
+        "Utilized TypeScript for type safety, improving the maintainability and scalability of the codebase.",
+        "Implemented authentication and user session management for secure login and data privacy."
+      ]
+    }
+  ]
+  
