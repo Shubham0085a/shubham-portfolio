@@ -184,14 +184,14 @@ const Header: FC = () => {
                   height={100}
                   className="w-10 h-10"
                 />
-                <span className="text-xl font-bold uppercase bg-gradient-to-r from-[#1e3a8a] to-[#0f172a] bg-clip-text text-transparent">
+                <span className="text-xl font-bold uppercase bg-gradient-to-r from-[#1e3a8a] to-stone-400 bg-clip-text text-transparent">
                   Shubham
                 </span>
               </Link>
             </div>
             <div className="flex items-center gap-4">
               <div
-                className="size-11 border border-stone-400 rounded-xl inline-flex items-center justify-center bg-stone-200"
+                className="size-11 border border-stone-400 rounded-xl inline-flex items-center justify-center bg-stone-900"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 <svg

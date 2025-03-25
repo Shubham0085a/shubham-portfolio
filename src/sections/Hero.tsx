@@ -110,7 +110,7 @@ const Hero: FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 1.75 }}
               >
-                <Link href="/Shubham_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="/Shubham_frontend_developer_Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="secondary"
                     iconAfter={

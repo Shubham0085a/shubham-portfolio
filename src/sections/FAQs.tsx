@@ -48,7 +48,7 @@ const FAQs: FC = () => {
             >
               <div
                 className={twMerge(
-                  "absolute h-0 w-full bg-stone-300 -z-10 group-hover/faq:h-full bottom-0 left-0 transition-all duration-700",
+                  "absolute h-0 w-full bg-stone-950 -z-10 group-hover/faq:h-full bottom-0 left-0 transition-all duration-700",
                   faqIndex === selectedIndex && "h-full"
                 )}
               ></div>
@@ -63,7 +63,7 @@ const FAQs: FC = () => {
                 </div>
                 <div
                   className={twMerge(
-                    "size-11 inline-flex items-center justify-center rounded-full border border-stone-400 shrink-0 transition duration-500 bg-stone-200",
+                    "size-11 inline-flex items-center justify-center rounded-full border border-stone-400 shrink-0 transition duration-500 bg-stone-900",
                     faqIndex === selectedIndex && "rotate-45"
                   )}
                 >
@@ -94,7 +94,7 @@ const FAQs: FC = () => {
                   >
                     <p
                       className={twMerge(
-                        "text-xl mt-4 italic",
+                        "text-xl mt-4 italic font-mono",
                         faqIndex === selectedIndex && "md:px-8"
                       )}
                     >
